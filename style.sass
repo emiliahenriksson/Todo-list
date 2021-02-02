@@ -1,0 +1,81 @@
+*
+    margin: 0
+    padding: 0
+    box-sizing: border-box
+    font-family: 'Quicksand', sans-serif
+    background-color: #fff
+    border: none
+
+#maincontainer
+    margin: 40px 10px
+    max-width: 700px
+    @media only screen and (min-width: 700px)
+        margin: 40px auto
+
+h1
+    font-family: 'Quicksand', sans-serif
+    font-size: 35px
+    margin-bottom: 30px
+
+p
+    font-family: 'Quicksand', sans-serif
+    font-size: 25px
+
+#inputTodo
+    margin-bottom: 30px
+    form
+        display: flex
+        justify-content: center
+        flex-direction: column
+        input
+            height: 35px
+            font-family: 'Quicksand', sans-serif
+            font-size: 18px
+            padding: 1px 5px
+            margin-bottom: 10px
+            border: solid 1px #3a3a3a
+            border-radius: 5px
+            @media only screen and (min-width: 500px)
+                height: 50px
+        button
+            height: 40px
+            font-size: 20px
+            background-color: #9E799B
+            color: #fff
+            border-radius: 5px
+            @media only screen and (min-width: 500px)
+                height: 50px
+
+#toDoList
+    div
+        margin-bottom: 10px
+        display: flex
+        justify-content: space-between
+        p
+            color: #ffffff
+            width: 75%
+            border-radius: 5px
+            padding: 2px 5px
+            background-color: #78CFD5
+            @media only screen and (min-width: 500px)
+                height: 50px
+                padding: 7px 10px
+        button
+            width: 10%
+            border-radius: 5px
+        .done
+            background-image: url("img/check.svg")
+            background-size: 40px
+            background-position: center
+            background-color: #82f8b7
+            background-repeat: no-repeat
+            @media only screen and (min-width: 500px)
+                background-size: 50px
+        .delete
+            background-image: url("img/x.svg")
+            background-size: 40px
+            background-position: center
+            background-color: #f88282
+            background-repeat: no-repeat
+            @media only screen and (min-width: 500px)
+                background-size: 50px
